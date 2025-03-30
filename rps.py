@@ -26,3 +26,8 @@ elif user_action == "scissors":
         print("Scissors cuts paper! You win!")
     else:
         print("Rock smashes scissors! You lose.")
+while true:
+	user_action = input("enter rock,paper, or scissor (or quit to exit ).lower")
+	if user_choice =='quit':
+		print ("thanks for playing")
+		break
